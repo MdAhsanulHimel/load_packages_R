@@ -2,7 +2,7 @@
 
 To use the function, run the following code in R-
 ```{r}
-source("https://raw.githubusercontent.com/mdahsanulhimel/correlations_in_dataframe_form/master/correlations_in_dataframe_form.R")
+source("https://raw.githubusercontent.com/MdAhsanulHimel/load_packages_R/master/script.R")
 ```
 This will source the function to your R global environment, and you will be able to use it. 
 
