@@ -6,7 +6,7 @@ source("https://raw.githubusercontent.com/MdAhsanulHimel/load_packages_R/master/
 ```
 This will source the function to your R global environment, and you will be able to use it. 
 
-This function loads all the packages that are installed. If any of the packages are not installed, then it installs first and then loads to the environment.
+This function loads all the passed packages that are installed. If any of the packages are not installed, then it installs first and then loads to the environment.
 
 **Arguments:**    
 `packages`: A vector of packages that needs to be loaded   
