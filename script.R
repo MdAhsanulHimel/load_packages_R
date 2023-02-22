@@ -10,8 +10,3 @@ load_packages <- function(packages) {
   message("Loading packages:", paste(" ", packages))
   lapply(X = packages, FUN = library, character.only = TRUE) |> invisible()
 }
-
-# Example
-pkges <- c("apaTables", "anytime", "AER")
-load_packages(packages = pkges)
-
